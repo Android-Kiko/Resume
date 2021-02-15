@@ -18,9 +18,10 @@
       width: 1170px;
       margin: 0 auto;
       min-height: 100%;
+      max-width: 100%;
   }
   header {
-      height: 100px;
+      max-height: 100%;
       background: linear-gradient( 149deg, #c0c0c0 12%, #000000 61%);
       width: 100%;
       z-index: 10;
@@ -68,7 +69,7 @@
   }
   .banner-area h2 {
     padding-top: 8%;
-    font-size: 4.557291666666667vw; /*Responsive Text For "My Resume" Text Banner*/
+    font-size: 70px;
     font-family: poppins;
     text-transform: uppercase;
     color: black;
@@ -248,8 +249,8 @@
         <header>
             <div class="wrapper">
                 <div class="logo"><a>KIKO</a></div>
-                <audio controls style="margin-top: 22px;">
-                  <source src="_Baby One More Time.mp3">
+                <audio style="margin-top: 22px;" controls>
+                  <source src="_Baby One More Time.mp3" type="audio/mpeg">
                 </audio>
                 <nav>
                   <a href="page1.html">HOME</a>
